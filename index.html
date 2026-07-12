@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather News</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li id="home-btn" class="nav-link">Home</li>
+
+        <li class="search-container">
+          <input
+            id="city-input"
+            type="text"
+            placeholder="Search any city..."
+            autocomplete="off"
+          />
+          <button type="submit" id="search-btn">Search</button>
+        </li>
+
+        <li id="about-btn" class="nav-link">About</li>
+        <li id="contact-btn" class="nav-link">Contact us</li>
+      </ul>
+    </nav>
+    <hr />
+    <main>
+      <div class="container" id="weather-container"></div>
+    </main>
+    <footer>all rights reserved &copy; 2026</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
