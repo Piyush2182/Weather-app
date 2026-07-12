@@ -2,7 +2,7 @@
 
 A modern, fast, and responsive Single Page Application (SPA) built to fetch and display real-time weather data.
 
-**[Live Demo]((https://piyush2182.github.io/Weather-app/))**
+**[Live Demo](https://piyush2182.github.io/Weather-app/)**
 
 ## The Engineering
 
